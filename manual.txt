@@ -1,0 +1,123 @@
+Manual de Usuario para el Juego de Battleship (Capstone Project)
+Introduccion:
+Este juego de Battleship es una implementacion en Python del clasico juego de mesa, donde dos jugadores (un humano y la CPU) intentan hundir los barcos del otro disparando en un tablero. El objetivo del juego es destruir todos los barcos del oponente antes de que ellos destruyan los tuyos.
+
+Como Jugar:
+Inicio del Juego:
+Al ejecutar el programa, se te preguntara si deseas jugar a Battleship:
+
+¿Te gustaria jugar una partida de Battleship? (si/no):
+
+Si respondes "no", el juego terminara. Si respondes "si", el juego comenzara y procederás a crear un tablero.
+
+Configuracion del Tablero:
+Debes crear un tablero seleccionando el numero de filas y columnas. El tamaño minimo permitido es de 5x5:
+
+¿Cuantas filas deseas que tenga el tablero?:
+
+¿Cuantas columnas deseas que tenga el tablero?:
+
+Si introduces un tamaño menor que 5x5, se te pedira que elijas nuevamente.
+
+Colocacion de Barcos (para el Jugador):
+Colocarás 3 barcos de diferentes tamanos (2, 3 y 4 casillas). Para cada barco, el juego te pedira seleccionar la fila y columna donde quieres posicionarlo, y la orientacion (vertical u horizontal):
+
+¿En que fila te gustaria colocar el barco?:
+
+¿En que columna te gustaria colocarlo?:
+
+¿Quieres que este en vertical (v) u horizontal (h)? (escribe v / h):
+
+Dependiendo de la orientacion seleccionada, deberas elegir si el barco se colocara "hacia arriba/abajo" o "izquierda/derecha" en el tablero. Si el barco no cabe en la posicion seleccionada o choca con otro barco, tendras que intentarlo de nuevo.
+
+Colocacion de Barcos (para la CPU):
+Los barcos de la CPU se colocaran automaticamente y de manera aleatoria en su propio tablero.
+
+Disparos:
+Una vez que los barcos de ambos jugadores esten colocados, comenzara la partida. Tomaras turnos disparando contra el tablero del oponente. Para disparar, se te pedira seleccionar una fila y columna:
+
+¿En que fila deseas lanzar el disparo?:
+
+¿En que columna deseas lanzar el disparo?:
+
+Si impactas un barco, el disparo se marcara con una "O". Si fallas, se marcara con una "X". La CPU tambien disparara en tu tablero de manera aleatoria.
+
+Introduccion:
+Este juego de Battleship es una implementacion en Python del clasico juego de mesa, donde dos jugadores (un humano y la CPU) intentan hundir los barcos del otro disparando en un tablero. El objetivo del juego es destruir todos los barcos del oponente antes de que ellos destruyan los tuyos.
+
+Como Jugar:
+Inicio del Juego:
+Al ejecutar el programa, se te preguntara si deseas jugar a Battleship:
+
+Te gustaria jugar una partida de Battleship? (si/no):
+
+Si respondes "no", el juego terminara. Si respondes "si", el juego comenzara y procederás a crear un tablero.
+
+Configuracion del Tablero:
+Debes crear un tablero seleccionando el numero de filas y columnas. El tamaño minimo permitido es de 5x5:
+
+Cuantas filas deseas que tenga el tablero?:
+
+Cuantas columnas deseas que tenga el tablero?:
+
+Si introduces un tamaño menor que 5x5, se te pedira que elijas nuevamente.
+
+Colocacion de Barcos (para el Jugador):
+Colocarás 3 barcos de diferentes tamanos (2, 3 y 4 casillas). Para cada barco, el juego te pedira seleccionar la fila y columna donde quieres posicionarlo, y la orientacion (vertical u horizontal):
+
+En que fila te gustaria colocar el barco?:
+
+En que columna te gustaria colocarlo?:
+
+Quieres que este en vertical (v) u horizontal (h)? (escribe v / h):
+
+Dependiendo de la orientacion seleccionada, deberas elegir si el barco se colocara "hacia arriba/abajo" o "izquierda/derecha" en el tablero. Si el barco no cabe en la posicion seleccionada o choca con otro barco, tendras que intentarlo de nuevo.
+
+Colocacion de Barcos (para la CPU):
+Los barcos de la CPU se colocaran automaticamente y de manera aleatoria en su propio tablero.
+
+Disparos:
+Una vez que los barcos de ambos jugadores esten colocados, comenzara la partida. Tomaras turnos disparando contra el tablero del oponente. Para disparar, se te pedira seleccionar una fila y columna:
+
+En que fila deseas lanzar el disparo?:
+
+En que columna deseas lanzar el disparo?:
+
+Si impactas un barco, el disparo se marcara con una "O". Si fallas, se marcara con una "X". La CPU tambien disparara en tu tablero de manera aleatoria.
+
+Verificacion de Ganador:
+El juego verificara si alguno de los jugadores ha hundido todos los barcos del oponente. Si todos los barcos de la CPU son destruidos, ganaras el juego y veras el mensaje:
+
+¡FELICIDADES, GANASTE!
+
+Si la CPU destruye todos tus barcos, veras el mensaje:
+
+¡Vaya, perdiste! Mejor suerte la proxima vez.
+
+Fin del Juego:
+Al finalizar una partida, se te preguntara si deseas jugar de nuevo:
+
+Te gustaria jugar otra vez? (si/no):
+
+Si respondes "si", el juego se reiniciara desde el principio. Si respondes "no", el programa finalizara con un mensaje de despedida:
+
+¡Hasta la proxima! ¡Adios! ;)
+
+Reglas del Juego:
+Cada jugador (tu y la CPU) tiene un tablero.
+Se colocan 3 barcos de diferentes tamanos (2, 3 y 4 casillas de largo).
+Los barcos pueden colocarse de manera horizontal o vertical.
+Los disparos se realizan por turnos, seleccionando la fila y columna donde se quiere disparar.
+Un disparo certero se marca con "O", un fallo con "X".
+El objetivo es hundir todos los barcos del oponente.
+Comandos Importantes:
+"si" / "no": Para responder preguntas del juego.
+Numeros: Para elegir filas y columnas donde colocar barcos o disparar.
+"v"=vertical
+"h"=horizontal
+"a"=arriba
+"b"=abajo
+"i"=izquierda
+"d"=derecha
+
+SUERTE!
